@@ -10,7 +10,7 @@ No installation is required.
 
 ## Usage
 
-Click this URL to view the page: https://allenmurfee.github.io/portfolio-react/
+Click this URL to view the page: https://allenmurfee.github.io/react-portfolio/
 
 ![portfolio screenshot](./assets/images/screenshot2.png)
 
