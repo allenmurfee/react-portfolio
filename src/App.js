@@ -9,12 +9,10 @@ function App() {
   return (
     <div>
       <Header />
-      <HashRouter basename={process.env.PUBLIC_URL}>
        <Routes>
           <Route path="/" element={<About/>} />
          <Route path="/my-work" element={<Project/>} />
       </Routes>
-      </HashRouter>
     </div>
   );
 }
