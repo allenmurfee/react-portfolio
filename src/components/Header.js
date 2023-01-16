@@ -22,7 +22,7 @@ function useHeader() {
   return (
     <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/react-portfolio">
+        <a className="navbar-brand" href="/">
           Allen Murfee's Portfolio
         </a>
         <button
@@ -39,12 +39,12 @@ function useHeader() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link " aria-current="page" href="/react-portfolio">
+              <a className="nav-link " aria-current="page" href="/">
                 About Me
               </a>
             </li>
             <li className="nav-item ">
-              <a className="nav-link" href="/react-portfolio/my-work">
+              <a className="nav-link" href="/my-work">
                 My Work
               </a>
             </li>
