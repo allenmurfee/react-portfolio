@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import About from "./About";
 import Project from "./Project";
+import { Link } from 'react-router-dom'
 
 function useHeader() {
   // const [showProjects, setShowProjects] = useState(() => {
@@ -22,9 +23,10 @@ function useHeader() {
   return (
     <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/react-portfolio">
+        {/* <a className="navbar-brand" href="/react-portfolio">
           Allen Murfee's Portfolio
-        </a>
+        </a> */}
+        <Link to='/react-portfolio' className="navbar-brand " aria-current="page">Allen Murfee's Portfolio</Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -39,14 +41,16 @@ function useHeader() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link " aria-current="page" href="/react-portfolio">
+              {/* <a className="nav-link " aria-current="page" href="/react-portfolio">
                 About Me
-              </a>
+              </a> */}
+              <Link to='/react-portfolio' className="nav-link " aria-current="page">About Me</Link>
             </li>
             <li className="nav-item ">
-              <a className="nav-link" href="/react-portfolio/my-work">
+              {/* <a className="nav-link" href="/react-portfolio/my-work">
                 My Work
-              </a>
+              </a> */}
+               <Link to='/react-portfolio/my-work' className="nav-link " aria-current="page">My Work</Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="mailto:allenmurfee123@gmail.com">

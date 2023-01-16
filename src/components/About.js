@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Header from "./Header";
 import Project from "./Project";
+import profilePicture from "./profile.jpg"
 
 function renderAbout() {
   return (
@@ -41,7 +42,7 @@ function renderAbout() {
             <div className="row">
               <img
                 className="img-fluid rounded"
-                src="profile.jpeg"
+                src={profilePicture}
                 alt="Allen Murfee profile picture"
               />
             </div>
