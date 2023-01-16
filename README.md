@@ -12,7 +12,7 @@ No installation is required.
 
 Click this URL to view the page: https://allenmurfee.github.io/react-portfolio/
 
-![portfolio screenshot](./public/screenshot2.png)
+![portfolio screenshot](./public/screenshot3.png)
 
 ## Credits
 
