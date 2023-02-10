@@ -22,6 +22,73 @@ function renderProjects() {
             <div className="col-6 text-center">
               <img
                 className="img-fluid rounded"
+                src="./todo.jpg"
+                alt="golden retriever"
+              />
+
+              <button
+                type="button"
+                className="btn btn-secondary mt-2"
+                data-bs-toggle="modal"
+                data-bs-target="#petModal"
+              >
+                Listify
+              </button>
+
+              {/*<!-- Modal -->*/}
+              <div
+                className="modal fade"
+                id="petModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div className="modal-dialog">
+                  <div className="modal-content">
+                    <div className="modal-header d-flex">
+                      <h1 className="modal-title fs-3" id="exampleModalLabel">
+                        Listify
+                      </h1>
+                      <button
+                        type="button"
+                        className="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div className="modal-body left-align">
+                      Listify is a to-do list app to easily create and manage
+                      tasks within your own to-do lists. It's built with the
+                      MERN stack: MongoDB, Express.js, Reactm and Node.js. It
+                      also uses GraphQL to manipulate data.
+                    </div>
+                    <div>
+                      <button
+                        type="button"
+                        className="btn btn-secondary justify-content-center w-33 m-3"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="https://young-island-68053.herokuapp.com">
+                          View App
+                        </a>
+                      </button>
+                      <button
+                        type="button"
+                        className="btn btn-secondary justify-content-center w-33 m-3"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="https://github.com/allenmurfee/todo-list-app">
+                          View GitHub Repository
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-6 text-center">
+              <img
+                className="img-fluid rounded"
                 src="./golden.jpg"
                 alt="golden retriever"
               />
@@ -57,11 +124,12 @@ function renderProjects() {
                       ></button>
                     </div>
                     <div className="modal-body left-align">
-                      Pet 2 Vet is a full-stack application utilizing a dynamic
-                      frontend using JavaScript, Node.js, Handlebars, and a
-                      MySQL database using Sequelize models. It also uses
-                      Express.js to efficiently use routes and utlize session
-                      information for login and user data.
+                      Pet 2 Vet is a full-stack application for pet owners to
+                      submit their pets' medical information to veterinarians.
+                      It has a dynamic frontend utilizing JavaScript, Node.js,
+                      Handlebars, and a MySQL database using Sequelize models.
+                      It also uses Express.js to efficiently use routes and
+                      utlize session information for login and user data.
                     </div>
                     <div>
                       <button
@@ -87,6 +155,8 @@ function renderProjects() {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="row">
             <div className="col-6 text-center">
               <img
                 className="img-fluid rounded"
@@ -147,66 +217,6 @@ function renderProjects() {
                       >
                         <a href="https://github.com/allenmurfee/smoothie-math">
                           View GitHub Repository
-                        </a>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-6 text-center">
-              <img
-                className="img-fluid rounded"
-                src="./social-media.jpg"
-                alt="social media"
-              />
-              {/*<!-- Button trigger modal -->*/}
-              <button
-                type="button"
-                className="btn btn-secondary mt-2"
-                data-bs-toggle="modal"
-                data-bs-target="#socialModal"
-              >
-                Social Network API
-              </button>
-
-              {/*<!-- Modal -->*/}
-              <div
-                className="modal fade"
-                id="socialModal"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div className="modal-dialog">
-                  <div className="modal-content">
-                    <div className="modal-header">
-                      <h1 className="modal-title fs-3" id="exampleModalLabel">
-                        Social Network API
-                      </h1>
-                      <button
-                        type="button"
-                        className="btn-close"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div className="modal-body left-align">
-                      The Social Network API is a fully backend application
-                      using NoSQL (MongoDB, Mongoose) to create a database for a
-                      hypothetical social media site that needs to store data on
-                      users, thoughts, and reactions.
-                    </div>
-                    <div>
-                      <button
-                        type="button"
-                        className="btn btn-secondary justify-content-center w-33 m-3"
-                        data-bs-dismiss="modal"
-                      >
-                        <a href="https://github.com/allenmurfee/social-network-api">
-                          View App
                         </a>
                       </button>
                     </div>

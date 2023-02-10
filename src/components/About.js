@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Header from "./Header";
 import Project from "./Project";
-import profilePicture from "./profile.jpg"
+import profilePicture from "./profile.jpg";
 
 function renderAbout() {
   return (
@@ -15,18 +15,17 @@ function renderAbout() {
         <div className="row">
           <p className="col-lg-9 fs-4">
             My name is Allen Murfee and I'm a 23-year-old full-stack software
-            developer. My skills include: JavaScript, React.js, Node.js,
-            Express.js, RESTful APIs, MySQL, Sequelize, NoSQL, MongoDB,
-            Mongoose, and more. I currently work in marketing and hold a
-            Bachelor's degree from Virginia Tech (Go Hokies), and am looking for
-            a career change into the field of software development.
+            developer. My skills include: JavaScript, React.js, Node.js, MERN
+            stack, Express.js, RESTful APIs, GraphQL, MySQL, MongoDB, and more.
+            I am a University of Richmond full-stack engineering bootcamp
+            graduate who is looking for a career change into software
+            developing. I currently work in marketing and also hold a Bachelor's
+            degree from Virginia Tech (Go Hokies!).
             <br /> <br />
             Below, you'll find links to applications I've built, some
-            full-stack, some frontend, some backend. I am currently a student in
-            the University of Richmond full-stack software engineering bootcamp,
-            and am anticipated to graduate in February 2023. In my free time, I
-            play video games, tinker with my car, exercise, and spend time with
-            my cats.
+            full-stack, some frontend, some backend. In my free time, I play
+            video games, tinker with my car, exercise, and spend time with my
+            cats.
             <br />
             <br />
             I'd love to hear from you! Here's my contact info: <br />-{" "}

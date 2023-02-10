@@ -1,8 +1,8 @@
-# My Portfolio 
+# My Portfolio
 
 ## Description
 
-This is my professional portfolio website built with React.js to be updated whenever I have new applications I'd like to highlight. 
+This is my professional portfolio website built with React.js to be updated whenever I have new applications I'd like to highlight.
 
 ## Installation
 
