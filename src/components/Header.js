@@ -26,7 +26,7 @@ function useHeader() {
         {/* <a className="navbar-brand" href="/react-portfolio">
           Allen Murfee's Portfolio
         </a> */}
-        <Link to='/react-portfolio' className="navbar-brand " aria-current="page">Allen Murfee's Portfolio</Link>
+        <Link to='/' className="navbar-brand " aria-current="page">Allen Murfee's Portfolio</Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -44,13 +44,13 @@ function useHeader() {
               {/* <a className="nav-link " aria-current="page" href="/react-portfolio">
                 About Me
               </a> */}
-              <Link to='/react-portfolio' className="nav-link " aria-current="page">About Me</Link>
+              <Link to='/' className="nav-link " aria-current="page">About Me</Link>
             </li>
             <li className="nav-item ">
               {/* <a className="nav-link" href="/react-portfolio/my-work">
                 My Work
               </a> */}
-               <Link to='/react-portfolio/my-work' className="nav-link " aria-current="page">My Work</Link>
+               <Link to='/my-work' className="nav-link " aria-current="page">My Work</Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="mailto:allenmurfee123@gmail.com">

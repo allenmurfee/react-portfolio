@@ -10,8 +10,8 @@ function App() {
     <div>
       <Header />
        <Routes>
-          <Route exact path="/react-portfolio" element={<About/>} />
-         <Route exact path="/react-portfolio/my-work" element={<Project/>} />
+          <Route exact path="/" element={<About/>} />
+         <Route exact path="/my-work" element={<Project/>} />
       </Routes>
     </div>
   );
