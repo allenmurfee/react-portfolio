@@ -8,12 +8,19 @@ function renderProjects() {
           <h1 className="display-4 fw-bold">My Work</h1>
           <div className="row">
             <p className=" fs-4">
-              Below, you'll find several applications I've enjoyed building: Pet
-              2 Vet is a full-stack application using JavaScript, Node.js,
-              MySQL, and other technologies; Smoothie Math is a front-end app
-              utilizing third-party API data; and the Social Network API and
-              Ecommerce Backend are both fully backend apps that utlize MySQL,
-              NoSQL, Sequelize, and Mongoose.
+              Below, you'll find several applications I've built individually or
+              in teams. <br /> <br />
+              <strong>Listify</strong> is a MERN stack app built with React,
+              MongoDB, GraphQL, and Node.js that allows you to create to-do
+              lists and manage your tasks; <strong>Pet 2 Vet</strong> is a
+              full-stack app using JavaScript, Node.js, MySQL, and other
+              technologies to allow patients to enter their pets' medical
+              records for their vets; <strong>Smoothie Math</strong> is a
+              front-end app utilizing third-party API data to produce
+              nutritional information of your smoothie ingredient combination;
+              and the <strong>Ecommerce Backend</strong> is a backend app that
+              utlizes MySQL, NoSQL, Sequelize, and Mongoose to built a database
+              for a mock ecommerce site.
             </p>
           </div>
           <div className="row py-3">
