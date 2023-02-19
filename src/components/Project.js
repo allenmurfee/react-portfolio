@@ -35,7 +35,7 @@ function renderProjects() {
                 type="button"
                 className="btn btn-secondary mt-2"
                 data-bs-toggle="modal"
-                data-bs-target="#petModal"
+                data-bs-target="#listifyModal"
               >
                 Listify
               </button>
@@ -43,7 +43,7 @@ function renderProjects() {
               {/*<!-- Modal -->*/}
               <div
                 className="modal fade"
-                id="petModal"
+                id="listifyModal"
                 tabindex="-1"
                 aria-labelledby="exampleModalLabel"
                 aria-hidden="true"
@@ -64,7 +64,7 @@ function renderProjects() {
                     <div className="modal-body left-align">
                       Listify is a to-do list app to easily create and manage
                       tasks within your own to-do lists. It's built with the
-                      MERN stack: MongoDB, Express.js, Reactm and Node.js. It
+                      MERN stack: MongoDB, Express.js, React, and Node.js. It
                       also uses GraphQL to manipulate data.
                     </div>
                     <div>
