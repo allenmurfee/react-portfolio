@@ -1,24 +1,7 @@
 import React, { useState, useEffect } from "react";
-import About from "./About";
-import Project from "./Project";
 import { Link } from 'react-router-dom'
 
 function useHeader() {
-  // const [showProjects, setShowProjects] = useState(() => {
-  //   const initialState = false;
-  //   return initialState
-  // });
-
-  // useEffect(() => {
-  //   const data = window.localStorage.getItem('state');
-  //   if ( data !== null ) setShowProjects(JSON.parse(data));
-  // }, []);
-
-  // useEffect(() => {
-  //   window.localStorage.setItem("state", JSON.stringify(showProjects))
-  // }, [showProjects])
-
-  // console.log(showProjects)
 
   return (
     <nav className="navbar navbar-dark bg-dark navbar-expand-lg">

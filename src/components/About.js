@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Header from "./Header";
-import Project from "./Project";
 import profilePicture from "./profile.jpg";
 
 function renderAbout() {

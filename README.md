@@ -1,12 +1,20 @@
 # My Portfolio
 
+## Table of Contents
+
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
 ## Description
 
 This is my professional portfolio website built with React.js to be updated whenever I have new applications I'd like to highlight.
 
 ## Installation
 
-No installation is required.
+No installation is required. Please visit the [usage](#usage) section for the portfolio URL.
 
 ## Usage
 
