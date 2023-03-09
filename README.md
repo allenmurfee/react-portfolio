@@ -20,7 +20,7 @@ No installation is required. Please visit the [usage](#usage) section for the po
 
 Click this URL to view the page: https://allenmurfee.github.io/react-portfolio/
 
-![portfolio screenshot](./public/screenshot3.png)
+![portfolio screenshot](./public/screenshot_new.png)
 
 ## Credits
 
