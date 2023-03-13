@@ -10,7 +10,12 @@
 
 ## Description
 
-This is my professional portfolio website built with React.js to be updated whenever I have new applications I'd like to highlight.
+This is my professional portfolio website built with React to be updated whenever I have new applications I'd like to highlight. I am currently seeking employment as a web developer. I am a full-stack software development bootcamp graduate from the University of Richmond and hold a Bachelor's from Virginia Tech.
+
+## Skills
+
+JavaScript, React, CSS, Node.js, MERN, REST APIs, Redux, Express.js, PWAs, Bootstrap, OOP,
+MySQL, NoSQL, MongoDB, GraphQL, Jest, jQuery, Sequelize, Mongoose, ES6, GitHub, Git
 
 ## Installation
 
