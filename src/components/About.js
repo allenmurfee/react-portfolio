@@ -7,23 +7,20 @@ function renderAbout() {
       <div className="container py-5">
         <div className="row bg-light">
           <h1 className="display-4 fw-bold">
-            Hey! I'm Allen, and I'm a full-stack developer.
+            Hey! I'm Allen, and I'm a software developer.
           </h1>
         </div>
         <div className="row">
           <p className="col-lg-9 fs-4">
-            My name is Allen Murfee and I'm a 23-year-old full-stack software
-            developer. My skills include: JavaScript, React.js, Node.js, MERN
-            stack, Express.js, RESTful APIs, GraphQL, MySQL, MongoDB, and more.
-            I am a University of Richmond full-stack engineering bootcamp
-            graduate who is looking for a career change into software
-            developing. I currently work in marketing and also hold a Bachelor's
-            degree from Virginia Tech (Go Hokies!).
+            My name is Allen Murfee and I'm a software developer at Brightpoint
+            Community College! I love everything about coding and building
+            websites and apps. My skills include: JavaScript, React, Node.js,
+            PHP, CSS/SCSS, RESTful APIs, GraphQL, MySQL, MongoDB, and more.
             <br /> <br />
             Below, you'll find links to applications I've built, some
             full-stack, some frontend, some backend. In my free time, I play
-            video games, tinker with my car, exercise, and spend time with my
-            cats.
+            video games, go hiking and camping, tinker with my car, and spend
+            time with my fiancée, dog, and cats.
             <br />
             <br />
             I'd love to hear from you! Here's my contact info: <br />-{" "}
