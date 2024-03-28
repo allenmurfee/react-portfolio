@@ -12,13 +12,13 @@ function renderAbout() {
         </div>
         <div className="row">
           <p className="col-lg-9 fs-4">
-            My name is Allen Murfee and I'm a software developer at Brightpoint
+            My name is Allen Murfee and I'm a software developer for Brightpoint
             Community College! I love everything about coding and building
             websites and apps. My skills include: JavaScript, React, Node.js,
             PHP, CSS/SCSS, RESTful APIs, GraphQL, MySQL, MongoDB, and more.
             <br /> <br />
             Below, you'll find links to applications I've built, some
-            full-stack, some frontend, some backend. In my free time, I play
+            full-stack, some frontend, and some backend. In my free time, I play
             video games, go hiking and camping, tinker with my car, and spend
             time with my fiancée, dog, and cats.
             <br />
