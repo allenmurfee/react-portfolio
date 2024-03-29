@@ -18,9 +18,8 @@ function renderProjects() {
               records for their vets; <strong>Smoothie Math</strong> is a
               front-end app utilizing third-party API data to produce
               nutritional information of your smoothie ingredient combination;
-              and the <strong>Ecommerce Backend</strong> is a backend app that
-              utlizes MySQL, NoSQL, Sequelize, and Mongoose to built a database
-              for a mock ecommerce site.
+              and the <strong>Pomodoro Timer</strong> is React app to help
+              people focus using the Pomodoro Technique.
             </p>
           </div>
           <div className="row py-3">
@@ -232,23 +231,23 @@ function renderProjects() {
             <div className="col-6 text-center">
               <img
                 className="img-fluid rounded"
-                src="./ecommerce.jpg"
-                alt="Allen Murfee profile picture"
+                src="./pomodoro.jpg"
+                alt="pomodoro timer"
               />
               {/*<!-- Button trigger modal -->*/}
               <button
                 type="button"
                 className="btn btn-secondary mt-2"
                 data-bs-toggle="modal"
-                data-bs-target="#ecommerceModal"
+                data-bs-target="#pomodoroModal"
               >
-                Ecommerce Backend
+                Pomodoro Timer
               </button>
 
               {/*<!-- Modal -->*/}
               <div
                 className="modal fade"
-                id="ecommerceModal"
+                id="pomodoroModal"
                 tabindex="-1"
                 aria-labelledby="exampleModalLabel"
                 aria-hidden="true"
@@ -257,7 +256,7 @@ function renderProjects() {
                   <div className="modal-content">
                     <div className="modal-header">
                       <h1 className="modal-title fs-3" id="exampleModalLabel">
-                        Ecommerce Application - Backend
+                        Pomodoro Timer
                       </h1>
                       <button
                         type="button"
@@ -267,10 +266,9 @@ function renderProjects() {
                       ></button>
                     </div>
                     <div className="modal-body left-align">
-                      This Ecommerce Backend Application is a fully backend app
-                      using MySQL (Sequelize) to create a database for a
-                      hypothetical Ecommerce site that includes data on
-                      products, categories, price, the number in stock, etc.
+                      This is a timer to help people focus using the Pomodoro
+                      Technique. Built using React, this is a simple, helpful
+                      application.
                     </div>
                     <div>
                       <button
@@ -278,8 +276,17 @@ function renderProjects() {
                         className="btn btn-secondary justify-content-center w-33 m-3"
                         data-bs-dismiss="modal"
                       >
-                        <a href="https://github.com/allenmurfee/ecommerce-backend">
+                        <a href="https://allenmurfee.github.io/pomodoro-technique/">
                           View App
+                        </a>
+                      </button>
+                      <button
+                        type="button"
+                        className="btn btn-secondary justify-content-center w-33 m-3"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="https://github.com/allenmurfee/pomodoro-technique">
+                          View GitHub Repository
                         </a>
                       </button>
                     </div>
